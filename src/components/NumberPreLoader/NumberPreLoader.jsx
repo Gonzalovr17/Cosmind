@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./NumberPreloader.css";
+import "./NumberPreLoader.css";
 
 export default function NumberPreloader({ onComplete }) {
   const [counter, setCounter] = useState(0);
