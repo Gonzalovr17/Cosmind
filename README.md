@@ -1,4 +1,4 @@
-<h1 align="center">🪐Cosmind</h1> 
+<h1 align="center"><img src="https://em-content.zobj.net/source/microsoft-teams/363/ringed-planet_1fa90.png" width="50"/>Cosmind</h1> 
 
   <p align="center"><em>Cosmind is like having a friendly co-pilot for your brain — here to help you pause, breathe, and check in with yourself.  
 Think of it as a cosmic coffee break: you explore your mind, learn a few things, and maybe even feel lighter than a spacewalking astronaut.  
@@ -26,7 +26,7 @@ It’s part science, part self-care, and 100% more fun than filling out a boring
 | 🧩 Lucide Icons   | Beautiful & consistent icons            |
 | 🎬 CSS Animations | Smooth loader, hover & scrolling effects |
 | 🌐 React Three Fiber | 3D rendering with WebGL and Three.js |
-| 🌀 Drei           | Helpers for React Three Fiber (used for 3D cylinder) |
+| 🌀 Drei           | Helpers for React Three Fiber |
 
 ---
 ## 🛠️ Installation & Setup
@@ -35,9 +35,9 @@ To run the project locally:
 
 ```bash
 # 1. Clone the Repository
-git clone https://github.com/
+git clone https://github.com/DhanushNadar/Cosmind
 
-cd Pixel
+cd Cosmind
 
 # 2. Install Dependencies
 npm install
