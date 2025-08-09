@@ -14,7 +14,33 @@ It’s part science, part self-care, and 100% more fun than filling out a boring
 ---
 > If our site makes your brain feel lighter than zero-gravity, mission accomplished. 🚀💫
 
-## 🖼️ Screenshots
+
+## 🖼️ Screenshots & Visual Tour
+
+Take a quick tour through the key screens of **Cosmind** — see how the experience flows from loading to results!
+
+<div align="center">
+
+| **Loader Page** | **Main Page** | **Video Page** |
+|:---------------:|:-------------:|:--------------:|
+| ![Loader Page Screenshot](images/loader.png) | ![Main Page Screenshot](images/main.png) | ![Video Page Screenshot](images/video.png) |
+
+| **Quiz Page** | **Result Page** | **Slip Page** |
+|:-------------:|:---------------:|:-------------:|
+| ![Quiz Page Screenshot](images/quiz.png) | ![Result Page Screenshot](images/result.png) | ![Slip Page Screenshot](images/slip.png) |
+
+| **Footer Page** |
+|:---------------:|
+| ![Footer Page Screenshot](images/footer.png) |
+
+</div>
+
+---
+
+<p align="center" style="max-width: 600px; margin: auto; font-style: italic; color: #888;">
+Each screenshot showcases a major feature or flow, designed with your mental wellness journey in mind — from the playful loading screen to personalized results.
+</p>
+
 
 ---
 ## 🧰 Tech Stack
