@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+
+
+html,body{
+  background-color: black;
+}
+
 /* Custom animations */
 @keyframes fade-in {
   from {
@@ -122,20 +128,20 @@ button:focus {
   outline-offset: 2px;
 }
 
-/* Custom scrollbar */
+/* Space-themed scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f5f9;
+  background: #0d0d1f; /* deep space */
 }
 
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #3b82f6, #10b981);
-  border-radius: 3px;
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #2563eb, #059669);
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
