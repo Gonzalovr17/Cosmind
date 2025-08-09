@@ -3,7 +3,7 @@ import { Star, MapPin, Clock, DollarSign, Calendar, User, Award, Languages, Chev
 import { healthcareProfessionals } from '../data/professionals';
 import BookingModal from './BookingModal';
 
-const ProfessionalsSection = () => {
+const ProfessionalsSection = ({relevantDoctors}) => {
   const [selectedProfessional, setSelectedProfessional] = useState(null);
   const [showBooking, setShowBooking] = useState(false);
 
@@ -196,7 +196,7 @@ const ProfessionalsSection = () => {
 
         {/* Professionals Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
-          {healthcareProfessionals.map((professional, index) => (
+          {relevantDoctors.map((professional, index) => (
             <div
               key={professional.id}
               className="bg-gray-900/80 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-400 transform hover:scale-105 overflow-hidden border border-gray-700"

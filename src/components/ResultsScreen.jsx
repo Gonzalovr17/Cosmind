@@ -367,6 +367,7 @@ import {
   TrendingUp,
 } from 'lucide-react';
 import { quizzes } from '../data/quizzes';
+import { healthcareProfessionals } from '../data/professionals'
 import ProfessionalsSection from './ProfessionalsSection';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from "recharts";
 
@@ -519,6 +520,36 @@ const ResultsScreen = ({ results, onBackToWelcome, onStartOver, scoreData, onBac
     { name: "Stress", value: Math.min((scoreData?.stress || 0) * 10, 100) },
     { name: "Sleep", value: Math.min((scoreData?.sleep || 0) * 10, 100) }
   ];
+
+
+  function getRelevantProfessionals(results) {
+    
+    console.log(results)
+    const { mood, anxiety, stress, sleep } = results[0]?.categoryScores || {};
+
+    const highCategories = Object.entries({ mood, anxiety, stress, sleep })
+      .filter(([key, value]) => value >= 1) 
+      .map(([key]) => key);
+
+    console.log(highCategories);
+
+
+    if (highCategories.length === 0) return healthcareProfessionals; 
+
+    const matchedDoctors = healthcareProfessionals.filter(doctor =>
+      highCategories.some(category =>
+        doctor.expertise.some(exp => exp.toLowerCase().includes(category.toLowerCase()))
+      )
+    );
+
+    return matchedDoctors
+
+  }
+
+  const relevantDoctors = getRelevantProfessionals(results);
+  if (relevantDoctors) {
+    console.log(relevantDoctors)
+  }
 
 
   // return (
@@ -937,7 +968,7 @@ const ResultsScreen = ({ results, onBackToWelcome, onStartOver, scoreData, onBac
 
 
         {/* Healthcare Professionals Section */}
-        <ProfessionalsSection />
+        <ProfessionalsSection relevantDoctors={relevantDoctors} />
       </div>
     </div>
   );
