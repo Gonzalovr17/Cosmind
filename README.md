@@ -1,12 +1,58 @@
-# React + Vite
+<h1 align="center">🪐Cosmind</h1> 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <p align="center"><em>Cosmind is like having a friendly co-pilot for your brain — here to help you pause, breathe, and check in with yourself.  
+Think of it as a cosmic coffee break: you explore your mind, learn a few things, and maybe even feel lighter than a spacewalking astronaut.  
+It’s part science, part self-care, and 100% more fun than filling out a boring paper questionnaire.🧠💫</em></p>
 
-Currently, two official plugins are available:
+---
+### 🚀 What Makes PIXEL Awesome
+- **Fun Checkups** — No boring forms. Just a space mission for your brain.   
+- **Clicky Quiz** — Science-backed questions with a circular selector you’ll want to spin twice.   
+- **Watch & Learn** — Mental health videos you’ll actually finish (and maybe send to a friend).  
+- **Book & Go** — Book a doc, print a receipt, walk in like an astronaut on a mission.   
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+> If our site makes your brain feel lighter than zero-gravity, mission accomplished. 🚀💫
 
-## Expanding the ESLint configuration
+## 🖼️ Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+## 🧰 Tech Stack
+
+| Technology       | Description                            |
+|------------------|----------------------------------------|
+| ⚛️ React.js       | JavaScript library for building UI      |
+| 🎨 Tailwind CSS   | Utility-first CSS framework             |
+| 🧩 Lucide Icons   | Beautiful & consistent icons            |
+| 🎬 CSS Animations | Smooth loader, hover & scrolling effects |
+| 🌐 React Three Fiber | 3D rendering with WebGL and Three.js |
+| 🌀 Drei           | Helpers for React Three Fiber (used for 3D cylinder) |
+
+---
+## 🛠️ Installation & Setup
+
+To run the project locally:
+
+```bash
+# 1. Clone the Repository
+git clone https://github.com/
+
+cd Pixel
+
+# 2. Install Dependencies
+npm install
+
+# 3. Start Development Server
+npm run dev
+```
+
+---
+<p align="center">
+  <img src="https://em-content.zobj.net/source/microsoft-teams/363/ringed-planet_1fa90.png" width="50"/>
+</p>
+
+<p align="center">
+  You’ve reached the end of the README.<br>
+  <b>If you read this far, congratulations — you’ve escaped the black hole of procrastination. 🕳️🚀</b><br>
+  <em>(Don’t worry, our mental health tips have a stronger pull than gravity.)</em>
+</p>
